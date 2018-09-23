@@ -4,7 +4,6 @@
 import numpy as np 
 import pandas as pd
 
-#visualization
 import seaborn as sns
 import matplotlib.pyplot as plt
 ```
@@ -695,7 +694,7 @@ sns.barplot(x="Churn", data=df)
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x10c4a0630>
+    <matplotlib.axes._subplots.AxesSubplot at 0x1a103fd240>
 
 
 
@@ -809,109 +808,109 @@ show_correlations(df2,show_chart=True)
     <tr>
       <th>SeniorCitizen</th>
       <td>1.000000</td>
-      <td>0.031414</td>
-      <td>-0.206534</td>
-      <td>0.009267</td>
-      <td>0.004877</td>
-      <td>0.152010</td>
-      <td>0.202857</td>
-      <td>0.083953</td>
-      <td>0.158910</td>
+      <td>0.033950</td>
+      <td>-0.216994</td>
+      <td>0.016501</td>
+      <td>-0.004327</td>
+      <td>0.154763</td>
+      <td>0.202354</td>
+      <td>0.087239</td>
+      <td>0.164277</td>
     </tr>
     <tr>
       <th>Partner</th>
-      <td>0.031414</td>
+      <td>0.033950</td>
       <td>1.000000</td>
-      <td>0.432514</td>
-      <td>0.388178</td>
-      <td>0.002734</td>
-      <td>-0.007327</td>
-      <td>0.104198</td>
-      <td>0.339102</td>
-      <td>-0.160169</td>
+      <td>0.441274</td>
+      <td>0.375380</td>
+      <td>-0.002699</td>
+      <td>-0.013015</td>
+      <td>0.080432</td>
+      <td>0.319740</td>
+      <td>-0.166508</td>
     </tr>
     <tr>
       <th>Dependents</th>
-      <td>-0.206534</td>
-      <td>0.432514</td>
+      <td>-0.216994</td>
+      <td>0.441274</td>
       <td>1.000000</td>
-      <td>0.170856</td>
-      <td>-0.008911</td>
-      <td>-0.100993</td>
-      <td>-0.110354</td>
-      <td>0.079321</td>
-      <td>-0.167564</td>
+      <td>0.181564</td>
+      <td>-0.003626</td>
+      <td>-0.133966</td>
+      <td>-0.126351</td>
+      <td>0.081688</td>
+      <td>-0.209236</td>
     </tr>
     <tr>
       <th>tenure</th>
-      <td>0.009267</td>
-      <td>0.388178</td>
-      <td>0.170856</td>
+      <td>0.016501</td>
+      <td>0.375380</td>
+      <td>0.181564</td>
       <td>1.000000</td>
-      <td>0.026022</td>
-      <td>-0.030844</td>
-      <td>0.226365</td>
-      <td>0.854732</td>
-      <td>-0.414469</td>
+      <td>0.013852</td>
+      <td>-0.018544</td>
+      <td>0.233362</td>
+      <td>0.861143</td>
+      <td>-0.407836</td>
     </tr>
     <tr>
       <th>PhoneService</th>
-      <td>0.004877</td>
-      <td>0.002734</td>
-      <td>-0.008911</td>
-      <td>0.026022</td>
+      <td>-0.004327</td>
+      <td>-0.002699</td>
+      <td>-0.003626</td>
+      <td>0.013852</td>
       <td>1.000000</td>
-      <td>0.015908</td>
-      <td>0.300104</td>
-      <td>0.122363</td>
-      <td>0.003702</td>
+      <td>0.033300</td>
+      <td>0.305843</td>
+      <td>0.117907</td>
+      <td>0.011893</td>
     </tr>
     <tr>
       <th>PaperlessBilling</th>
-      <td>0.152010</td>
-      <td>-0.007327</td>
-      <td>-0.100993</td>
-      <td>-0.030844</td>
-      <td>0.015908</td>
+      <td>0.154763</td>
+      <td>-0.013015</td>
+      <td>-0.133966</td>
+      <td>-0.018544</td>
+      <td>0.033300</td>
       <td>1.000000</td>
-      <td>0.335932</td>
-      <td>0.108964</td>
-      <td>0.221131</td>
+      <td>0.336252</td>
+      <td>0.113081</td>
+      <td>0.224259</td>
     </tr>
     <tr>
       <th>MonthlyCharges</th>
-      <td>0.202857</td>
-      <td>0.104198</td>
-      <td>-0.110354</td>
-      <td>0.226365</td>
-      <td>0.300104</td>
-      <td>0.335932</td>
+      <td>0.202354</td>
+      <td>0.080432</td>
+      <td>-0.126351</td>
+      <td>0.233362</td>
+      <td>0.305843</td>
+      <td>0.336252</td>
       <td>1.000000</td>
-      <td>0.589363</td>
-      <td>0.225301</td>
+      <td>0.584964</td>
+      <td>0.222854</td>
     </tr>
     <tr>
       <th>TotalCharges</th>
-      <td>0.083953</td>
-      <td>0.339102</td>
-      <td>0.079321</td>
-      <td>0.854732</td>
-      <td>0.122363</td>
-      <td>0.108964</td>
-      <td>0.589363</td>
+      <td>0.087239</td>
+      <td>0.319740</td>
+      <td>0.081688</td>
+      <td>0.861143</td>
+      <td>0.117907</td>
+      <td>0.113081</td>
+      <td>0.584964</td>
       <td>1.000000</td>
-      <td>-0.238282</td>
+      <td>-0.237921</td>
     </tr>
     <tr>
       <th>Churn</th>
-      <td>0.158910</td>
-      <td>-0.160169</td>
-      <td>-0.167564</td>
-      <td>-0.414469</td>
-      <td>0.003702</td>
-      <td>0.221131</td>
-      <td>0.225301</td>
-      <td>-0.238282</td>
+      <td>0.164277</td>
+      <td>-0.166508</td>
+      <td>-0.209236</td>
+      <td>-0.407836</td>
+      <td>0.011893</td>
+      <td>0.224259</td>
+      <td>0.222854</td>
+      <td>-0.237921</td>
       <td>1.000000</td>
     </tr>
   </tbody>
@@ -1334,61 +1333,61 @@ print(feature_df.sort_values(by='importance', ascending=True))
 ```
 
     KNeighborsClassifier
-    0.672 
+    0.697 
      - - - - -  
     
-    0.687 
+    0.697 
      - - - - -  
     
     DecisionTreeClassifier
-    0.745 
+    0.753 
      - - - - -  
     
-    0.743 
+    0.753 
      - - - - -  
     
                                        features  importance
     0                             SeniorCitizen    0.000000
     38    PaymentMethod_credit card (automatic)    0.000000
-    35                        Contract_one year    0.000000
-    33                      StreamingMovies_yes    0.000000
+    37  PaymentMethod_bank transfer (automatic)    0.000000
+    36                        Contract_two year    0.000000
     32      StreamingMovies_no internet service    0.000000
+    31                       StreamingMovies_no    0.000000
     30                          StreamingTV_yes    0.000000
     29          StreamingTV_no internet service    0.000000
     28                           StreamingTV_no    0.000000
-    27                          TechSupport_yes    0.000000
     26          TechSupport_no internet service    0.000000
     25                           TechSupport_no    0.000000
     24                     DeviceProtection_yes    0.000000
     23     DeviceProtection_no internet service    0.000000
     22                      DeviceProtection_no    0.000000
-    18                       OnlineSecurity_yes    0.000000
+    21                         OnlineBackup_yes    0.000000
     17       OnlineSecurity_no internet service    0.000000
     20         OnlineBackup_no internet service    0.000000
     15                       InternetService_no    0.000000
     1                                   Partner    0.000000
     2                                Dependents    0.000000
     4                              PhoneService    0.000000
-    8                             gender_female    0.000000
     9                               gender_male    0.000000
     10                         MultipleLines_no    0.000000
-    40               PaymentMethod_mailed check    0.000000
+    11           MultipleLines_no phone service    0.000000
+    8                             gender_female    0.000000
     12                        MultipleLines_yes    0.000000
-    13                      InternetService_dsl    0.000000
-    21                         OnlineBackup_yes    0.000620
-    31                       StreamingMovies_no    0.000640
-    37  PaymentMethod_bank transfer (automatic)    0.003461
-    39           PaymentMethod_electronic check    0.005260
-    5                          PaperlessBilling    0.007269
-    36                        Contract_two year    0.009599
-    19                          OnlineBackup_no    0.012117
-    11           MultipleLines_no phone service    0.018830
-    7                              TotalCharges    0.036166
-    14              InternetService_fiber optic    0.043532
-    16                        OnlineSecurity_no    0.093619
-    6                            MonthlyCharges    0.096882
-    3                                    tenure    0.121391
-    34                  Contract_month-to-month    0.550615
+    40               PaymentMethod_mailed check    0.000000
+    18                       OnlineSecurity_yes    0.001574
+    33                      StreamingMovies_yes    0.003025
+    27                          TechSupport_yes    0.003104
+    39           PaymentMethod_electronic check    0.008869
+    19                          OnlineBackup_no    0.012050
+    5                          PaperlessBilling    0.018717
+    35                        Contract_one year    0.022320
+    7                              TotalCharges    0.030484
+    14              InternetService_fiber optic    0.037100
+    13                      InternetService_dsl    0.038197
+    3                                    tenure    0.059679
+    6                            MonthlyCharges    0.066997
+    16                        OnlineSecurity_no    0.110701
+    34                  Contract_month-to-month    0.587184
 
 
 
@@ -1460,11 +1459,11 @@ print(eval_metrics)
 ```
 
     Confusion matrix, without normalization
-    [[354 191]
-     [ 95 482]]
+    [[425 143]
+     [134 420]]
     Normalized confusion matrix
-    [[0.65 0.35]
-     [0.16 0.84]]
+    [[0.75 0.25]
+     [0.24 0.76]]
 
 
 
@@ -1477,125 +1476,33 @@ print(eval_metrics)
 
                  precision    recall  f1-score   support
     
-    Not churned       0.79      0.65      0.71       545
-        churned       0.72      0.84      0.77       577
+    Not churned       0.76      0.75      0.75       568
+        churned       0.75      0.76      0.75       554
     
-    avg / total       0.75      0.75      0.74      1122
+    avg / total       0.75      0.75      0.75      1122
     
 
 
 
 ```python
-feature_df = pd.DataFrame()
-feature_df['prediction'] = clf.predict_proba(ml_dummies)[:,1]
-feature_df['prediction'].sort_values(ascending=False)
-```
-
-
-
-
-    3579    1.000000
-    1800    1.000000
-    3517    1.000000
-    1091    1.000000
-    1206    1.000000
-    1696    1.000000
-    1225    0.979021
-    1220    0.979021
-    233     0.979021
-    3423    0.979021
-    1212    0.979021
-    1142    0.979021
-    1203    0.979021
-    1195    0.979021
-    245     0.979021
-    1236    0.979021
-    246     0.979021
-    509     0.979021
-    251     0.979021
-    1166    0.979021
-    1146    0.979021
-    1133    0.979021
-    1135    0.979021
-    1246    0.979021
-    318     0.979021
-    1028    0.979021
-    1034    0.979021
-    312     0.979021
-    1037    0.979021
-    1038    0.979021
-              ...   
-    3094    0.007937
-    3088    0.007937
-    2099    0.007937
-    3081    0.007937
-    1231    0.007937
-    3080    0.007937
-    3078    0.007937
-    3073    0.007937
-    3069    0.007937
-    2103    0.007937
-    3065    0.007937
-    3061    0.007937
-    2106    0.007937
-    2111    0.007937
-    3058    0.007937
-    3045    0.007937
-    2353    0.007937
-    3042    0.007937
-    1214    0.007937
-    2129    0.007937
-    3028    0.007937
-    2131    0.007937
-    3024    0.007937
-    3015    0.007937
-    2137    0.007937
-    3001    0.007937
-    2142    0.007937
-    2983    0.007937
-    2979    0.007937
-    2113    0.007937
-    Name: prediction, Length: 3738, dtype: float64
-
-
-
-
-```python
-# Preprocessing original dataframe
-def preprocess_df(dataframe):
-    x = dataframe.copy()
-    try:
-        customer_id = x['customerID']
-        del x['customerID'] # Don't need in ML DF
-    except:
-        print("already removed customerID")
-    ml_dummies = pd.get_dummies(x)
-    ml_dummies.fillna(value=0, inplace=True)
-
-    try:
-        label = ml_dummies['Churn']
-        del ml_dummies['Churn']
-    except:
-        print("label already removed.")
-    return ml_dummies, customer_id, label
-
-original_df = preprocess_df(df)
-
-output_df = original_df[0].copy()
+output_df = ml_dummies
 output_df['prediction'] = clf.predict_proba(output_df)[:,1]
-output_df['churn'] = original_df[2]
-output_df['customerID'] = original_df[1]
+output_df['churn'] = target
+output_df['customerID'] = customer_id
 
 print('Mean predict proba of churn:',round(output_df[output_df['churn'] == 1]['prediction'].mean(),2))
 print('Mean predict proba of NON-churn:',round(output_df[output_df['churn'] == 0]['prediction'].mean(),2))
+```
 
+    Mean predict proba of churn: 0.7
+    Mean predict proba of NON-churn: 0.3
+
+
+
+```python
 activate = output_df[output_df['churn'] == 0]
 activate.sort_values(by='prediction', ascending=False)
 ```
-
-    Mean predict proba of churn: 0.69
-    Mean predict proba of NON-churn: 0.32
-
 
 
 
@@ -1643,375 +1550,63 @@ activate.sort_values(by='prediction', ascending=False)
   </thead>
   <tbody>
     <tr>
-      <th>321</th>
+      <th>4704</th>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
-      <td>72</td>
+      <td>0</td>
+      <td>61.15</td>
+      <td>61.15</td>
       <td>0</td>
       <td>1</td>
-      <td>60.00</td>
-      <td>4264.00</td>
-      <td>1</td>
-      <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1.000000</td>
       <td>0</td>
-      <td>9880-tdqac</td>
+      <td>1928-bxyiv</td>
     </tr>
     <tr>
-      <th>1969</th>
+      <th>5436</th>
       <td>0</td>
       <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
       <td>0</td>
-      <td>60</td>
-      <td>0</td>
-      <td>0</td>
-      <td>53.60</td>
-      <td>3237.05</td>
+      <td>54.50</td>
+      <td>54.50</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>1.000000</td>
       <td>0</td>
-      <td>5110-chopy</td>
+      <td>7246-zgqdf</td>
     </tr>
     <tr>
-      <th>114</th>
+      <th>3582</th>
       <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>64</td>
-      <td>0</td>
-      <td>1</td>
-      <td>54.60</td>
-      <td>3423.50</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>5256-skjgo</td>
-    </tr>
-    <tr>
-      <th>4968</th>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>68</td>
-      <td>0</td>
-      <td>1</td>
-      <td>53.00</td>
-      <td>3656.25</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>2197-omwgi</td>
-    </tr>
-    <tr>
-      <th>5338</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>37</td>
-      <td>0</td>
-      <td>0</td>
-      <td>45.40</td>
-      <td>1593.10</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>2580-asvvy</td>
-    </tr>
-    <tr>
-      <th>2538</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>34</td>
-      <td>0</td>
-      <td>1</td>
-      <td>40.55</td>
-      <td>1325.85</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>7758-ujwys</td>
-    </tr>
-    <tr>
-      <th>6093</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>71</td>
-      <td>0</td>
-      <td>1</td>
-      <td>47.05</td>
-      <td>3263.60</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>7110-bdtwg</td>
-    </tr>
-    <tr>
-      <th>1634</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>63</td>
-      <td>0</td>
-      <td>0</td>
-      <td>59.00</td>
-      <td>3707.60</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>9995-hotoh</td>
-    </tr>
-    <tr>
-      <th>6547</th>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>68</td>
-      <td>0</td>
-      <td>1</td>
-      <td>41.95</td>
-      <td>2965.75</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>3908-mkimj</td>
-    </tr>
-    <tr>
-      <th>4726</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>72</td>
-      <td>0</td>
-      <td>1</td>
-      <td>49.20</td>
-      <td>3580.95</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>2192-ckrlv</td>
-    </tr>
-    <tr>
-      <th>6514</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>72</td>
-      <td>0</td>
-      <td>1</td>
-      <td>64.70</td>
-      <td>4746.05</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>6166-yipfo</td>
-    </tr>
-    <tr>
-      <th>6416</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>67</td>
-      <td>0</td>
-      <td>0</td>
-      <td>43.90</td>
-      <td>3097.20</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
       <td>0</td>
-      <td>1.000000</td>
       <td>0</td>
-      <td>9610-wcesf</td>
-    </tr>
-    <tr>
-      <th>255</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>67</td>
-      <td>0</td>
-      <td>1</td>
-      <td>59.55</td>
-      <td>4103.90</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>4111-bnxif</td>
-    </tr>
-    <tr>
-      <th>5674</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>64</td>
-      <td>0</td>
-      <td>0</td>
-      <td>49.85</td>
-      <td>3210.35</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1.000000</td>
-      <td>0</td>
-      <td>3566-caayu</td>
-    </tr>
-    <tr>
-      <th>1813</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>75.50</td>
-      <td>75.50</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0.979021</td>
-      <td>0</td>
-      <td>0817-hsuse</td>
-    </tr>
-    <tr>
-      <th>3740</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>2</td>
+      <td>3</td>
       <td>1</td>
       <td>1</td>
-      <td>71.65</td>
-      <td>135.75</td>
+      <td>80.50</td>
+      <td>232.35</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2022,20 +1617,68 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
-      <td>0508-oolto</td>
+      <td>6357-jjpqt</td>
     </tr>
     <tr>
-      <th>3633</th>
+      <th>2548</th>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>1</td>
+      <td>69.95</td>
+      <td>562.70</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>9796-bpkiw</td>
+    </tr>
+    <tr>
+      <th>6610</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>80.10</td>
+      <td>398.55</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>9696-rmyba</td>
+    </tr>
+    <tr>
+      <th>5354</th>
       <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>71.25</td>
-      <td>71.25</td>
+      <td>1</td>
+      <td>89.35</td>
+      <td>89.35</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2046,44 +1689,20 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
-      <td>3878-avsoq</td>
+      <td>4273-mbhya</td>
     </tr>
     <tr>
-      <th>3536</th>
+      <th>4484</th>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
       <td>1</td>
       <td>1</td>
-      <td>79.15</td>
-      <td>79.15</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.979021</td>
-      <td>0</td>
-      <td>2254-dlxri</td>
-    </tr>
-    <tr>
-      <th>3529</th>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>74.20</td>
-      <td>140.10</td>
+      <td>70.35</td>
+      <td>70.35</td>
       <td>0</td>
       <td>1</td>
       <td>...</td>
@@ -2094,9 +1713,225 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
-      <td>2880-fpnae</td>
+      <td>7465-zzrvx</td>
+    </tr>
+    <tr>
+      <th>1963</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>8</td>
+      <td>1</td>
+      <td>0</td>
+      <td>70.70</td>
+      <td>553.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>7967-hycde</td>
+    </tr>
+    <tr>
+      <th>2173</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0</td>
+      <td>86.05</td>
+      <td>308.10</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>2038-oeqzh</td>
+    </tr>
+    <tr>
+      <th>313</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>5</td>
+      <td>1</td>
+      <td>1</td>
+      <td>69.35</td>
+      <td>341.60</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>2799-arnlo</td>
+    </tr>
+    <tr>
+      <th>6481</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0</td>
+      <td>69.95</td>
+      <td>320.40</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>9389-acwbi</td>
+    </tr>
+    <tr>
+      <th>1002</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>69.55</td>
+      <td>284.90</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>8120-jdcam</td>
+    </tr>
+    <tr>
+      <th>2447</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>1</td>
+      <td>74.90</td>
+      <td>490.55</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>1475-vwvdo</td>
+    </tr>
+    <tr>
+      <th>6770</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>78.90</td>
+      <td>299.75</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>3855-oncar</td>
+    </tr>
+    <tr>
+      <th>1903</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>92.00</td>
+      <td>266.80</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>3318-nmqxl</td>
+    </tr>
+    <tr>
+      <th>1079</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>3</td>
+      <td>1</td>
+      <td>1</td>
+      <td>69.55</td>
+      <td>200.20</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>0455-xfass</td>
     </tr>
     <tr>
       <th>5071</th>
@@ -2118,20 +1953,20 @@ activate.sort_values(by='prediction', ascending=False)
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
       <td>1746-tgtwv</td>
     </tr>
     <tr>
-      <th>1929</th>
+      <th>4072</th>
+      <td>1</td>
       <td>0</td>
+      <td>0</td>
+      <td>9</td>
       <td>1</td>
       <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>81.05</td>
-      <td>81.05</td>
+      <td>79.55</td>
+      <td>718.55</td>
       <td>0</td>
       <td>1</td>
       <td>...</td>
@@ -2142,20 +1977,20 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
-      <td>2018-qkygt</td>
+      <td>2688-bhgog</td>
     </tr>
     <tr>
-      <th>684</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
+      <th>935</th>
       <td>1</td>
       <td>1</td>
       <td>0</td>
-      <td>71.10</td>
-      <td>71.10</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>83.25</td>
+      <td>308.05</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2164,22 +1999,22 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
       <td>1</td>
-      <td>0.979021</td>
       <td>0</td>
-      <td>8040-mnrtf</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>6630-ujzmy</td>
     </tr>
     <tr>
-      <th>2441</th>
+      <th>2453</th>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>2</td>
+      <td>4</td>
       <td>1</td>
-      <td>0</td>
-      <td>81.50</td>
-      <td>162.55</td>
+      <td>1</td>
+      <td>74.45</td>
+      <td>294.45</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2188,22 +2023,70 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
       <td>1</td>
-      <td>0.979021</td>
       <td>0</td>
-      <td>9050-ikdza</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>1197-bvmvg</td>
     </tr>
     <tr>
-      <th>4094</th>
+      <th>2493</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>6</td>
+      <td>1</td>
+      <td>1</td>
+      <td>90.75</td>
+      <td>512.25</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>8622-zlfko</td>
+    </tr>
+    <tr>
+      <th>1397</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>82.85</td>
+      <td>319.60</td>
       <td>1</td>
       <td>0</td>
-      <td>74.00</td>
-      <td>74.00</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>8714-ctzjw</td>
+    </tr>
+    <tr>
+      <th>6249</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>74.50</td>
+      <td>217.45</td>
       <td>0</td>
       <td>1</td>
       <td>...</td>
@@ -2214,9 +2097,33 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
-      <td>8687-bafgu</td>
+      <td>7823-jsoag</td>
+    </tr>
+    <tr>
+      <th>2097</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>9</td>
+      <td>1</td>
+      <td>1</td>
+      <td>94.05</td>
+      <td>811.65</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>8087-lgyhq</td>
     </tr>
     <tr>
       <th>345</th>
@@ -2238,92 +2145,116 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
       <td>0021-ikxgc</td>
     </tr>
     <tr>
-      <th>4916</th>
+      <th>3740</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>71.65</td>
+      <td>135.75</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>0508-oolto</td>
+    </tr>
+    <tr>
+      <th>5227</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>7</td>
+      <td>1</td>
+      <td>0</td>
+      <td>96.20</td>
+      <td>639.70</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>4060-ldnlu</td>
+    </tr>
+    <tr>
+      <th>162</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>69.70</td>
+      <td>135.20</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.909314</td>
+      <td>0</td>
+      <td>4482-ewfmi</td>
+    </tr>
+    <tr>
+      <th>1381</th>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>2</td>
       <td>1</td>
       <td>0</td>
-      <td>79.55</td>
-      <td>151.75</td>
-      <td>1</td>
+      <td>70.70</td>
+      <td>129.20</td>
       <td>0</td>
+      <td>1</td>
       <td>...</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
       <td>1</td>
+      <td>0.909314</td>
       <td>0</td>
-      <td>0.979021</td>
-      <td>0</td>
-      <td>3420-yjlqt</td>
+      <td>3717-oeauq</td>
     </tr>
     <tr>
-      <th>532</th>
+      <th>5689</th>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>2</td>
+      <td>5</td>
       <td>1</td>
       <td>1</td>
-      <td>79.95</td>
-      <td>174.45</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0.979021</td>
-      <td>0</td>
-      <td>4234-xtnea</td>
-    </tr>
-    <tr>
-      <th>3435</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>71.30</td>
-      <td>157.75</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.979021</td>
-      <td>0</td>
-      <td>4450-dllmh</td>
-    </tr>
-    <tr>
-      <th>5307</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>1</td>
-      <td>90.10</td>
-      <td>90.10</td>
+      <td>74.65</td>
+      <td>383.65</td>
       <td>0</td>
       <td>1</td>
       <td>...</td>
@@ -2334,33 +2265,9 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>0.979021</td>
+      <td>0.909314</td>
       <td>0</td>
-      <td>1941-hosam</td>
-    </tr>
-    <tr>
-      <th>2519</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>2</td>
-      <td>1</td>
-      <td>1</td>
-      <td>91.45</td>
-      <td>171.45</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0.979021</td>
-      <td>0</td>
-      <td>4927-wwooz</td>
+      <td>5399-zimkf</td>
     </tr>
     <tr>
       <th>...</th>
@@ -2387,135 +2294,39 @@ activate.sort_values(by='prediction', ascending=False)
       <td>...</td>
     </tr>
     <tr>
-      <th>5511</th>
+      <th>2068</th>
       <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>47</td>
       <td>1</td>
       <td>0</td>
-      <td>70</td>
-      <td>1</td>
-      <td>1</td>
-      <td>76.95</td>
-      <td>5289.80</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>6586-mygkd</td>
-    </tr>
-    <tr>
-      <th>5508</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>70</td>
-      <td>1</td>
-      <td>0</td>
-      <td>25.15</td>
-      <td>1940.85</td>
+      <td>100.75</td>
+      <td>4669.20</td>
       <td>0</td>
       <td>1</td>
       <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0.007937</td>
       <td>0</td>
-      <td>6010-ddppw</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>9079-lwtfd</td>
     </tr>
     <tr>
-      <th>5582</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>48</td>
-      <td>1</td>
-      <td>0</td>
-      <td>24.00</td>
-      <td>1183.05</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
+      <th>588</th>
       <td>0</td>
       <td>1</td>
       <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>7601-dhfwz</td>
-    </tr>
-    <tr>
-      <th>3179</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>27</td>
+      <td>72</td>
       <td>1</td>
       <td>1</td>
-      <td>19.60</td>
-      <td>561.15</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>3721-wkiil</td>
-    </tr>
-    <tr>
-      <th>3181</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>64</td>
-      <td>1</td>
-      <td>1</td>
-      <td>81.30</td>
-      <td>5129.30</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>1265-zfosd</td>
-    </tr>
-    <tr>
-      <th>5496</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>43</td>
-      <td>1</td>
-      <td>0</td>
-      <td>24.25</td>
-      <td>1077.95</td>
+      <td>99.15</td>
+      <td>7422.10</td>
       <td>0</td>
       <td>1</td>
       <td>...</td>
@@ -2524,22 +2335,46 @@ activate.sort_values(by='prediction', ascending=False)
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
       <td>1</td>
-      <td>0.007937</td>
       <td>0</td>
-      <td>2208-nkvvh</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>0742-lafqk</td>
     </tr>
     <tr>
-      <th>5492</th>
+      <th>4206</th>
       <td>0</td>
       <td>1</td>
       <td>1</td>
-      <td>65</td>
+      <td>72</td>
       <td>1</td>
       <td>1</td>
-      <td>25.30</td>
-      <td>1748.55</td>
+      <td>116.80</td>
+      <td>8456.75</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>0017-iudmw</td>
+    </tr>
+    <tr>
+      <th>5930</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>84.70</td>
+      <td>6185.15</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2550,92 +2385,236 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0.007937</td>
+      <td>0.000000</td>
       <td>0</td>
-      <td>2799-tslag</td>
+      <td>8398-tbiyd</td>
     </tr>
     <tr>
-      <th>3184</th>
+      <th>4822</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>104.90</td>
+      <td>7559.55</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>2664-xjzno</td>
+    </tr>
+    <tr>
+      <th>3112</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>100.55</td>
+      <td>7325.10</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>8809-xkhmd</td>
+    </tr>
+    <tr>
+      <th>5695</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>0</td>
+      <td>80.45</td>
+      <td>5737.60</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>1813-jywto</td>
+    </tr>
+    <tr>
+      <th>2941</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>97.95</td>
+      <td>7114.25</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>6176-yjwas</td>
+    </tr>
+    <tr>
+      <th>5995</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>72</td>
+      <td>1</td>
+      <td>0</td>
+      <td>111.95</td>
+      <td>8033.10</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>2193-sfwqw</td>
+    </tr>
+    <tr>
+      <th>3878</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>71</td>
+      <td>1</td>
+      <td>1</td>
+      <td>116.05</td>
+      <td>8297.50</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>2223-gdshl</td>
+    </tr>
+    <tr>
+      <th>2689</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>116.75</td>
+      <td>8277.05</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>8628-mfkax</td>
+    </tr>
+    <tr>
+      <th>5028</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>109.90</td>
+      <td>7624.20</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>0254-fnmci</td>
+    </tr>
+    <tr>
+      <th>807</th>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>71</td>
       <td>1</td>
       <td>1</td>
-      <td>83.30</td>
-      <td>5894.50</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>5197-lqxxh</td>
-    </tr>
-    <tr>
-      <th>3186</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>58</td>
-      <td>1</td>
-      <td>0</td>
-      <td>20.30</td>
-      <td>1160.75</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>3457-pqbyh</td>
-    </tr>
-    <tr>
-      <th>3190</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>66</td>
-      <td>0</td>
-      <td>0</td>
-      <td>54.65</td>
-      <td>3632.00</td>
+      <td>108.55</td>
+      <td>7616.00</td>
       <td>0</td>
       <td>1</td>
       <td>...</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
+      <td>0.000000</td>
       <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>3745-hrphi</td>
+      <td>2798-nylmz</td>
     </tr>
     <tr>
-      <th>539</th>
+      <th>6412</th>
       <td>0</td>
       <td>1</td>
       <td>1</td>
-      <td>60</td>
+      <td>72</td>
       <td>1</td>
       <td>1</td>
-      <td>80.60</td>
-      <td>4946.70</td>
+      <td>108.30</td>
+      <td>7679.65</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2646,68 +2625,20 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0.007937</td>
+      <td>0.000000</td>
       <td>0</td>
-      <td>5394-meitz</td>
+      <td>6519-zhpxp</td>
     </tr>
     <tr>
-      <th>5535</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>55</td>
-      <td>1</td>
-      <td>1</td>
-      <td>85.10</td>
-      <td>4657.95</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>2404-jibfc</td>
-    </tr>
-    <tr>
-      <th>5542</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>67</td>
-      <td>1</td>
-      <td>0</td>
-      <td>86.15</td>
-      <td>5883.85</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>2990-ogytd</td>
-    </tr>
-    <tr>
-      <th>1390</th>
+      <th>6242</th>
       <td>0</td>
       <td>1</td>
       <td>1</td>
       <td>72</td>
       <td>1</td>
       <td>0</td>
-      <td>68.75</td>
-      <td>4888.20</td>
+      <td>107.45</td>
+      <td>7658.30</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2718,260 +2649,20 @@ activate.sort_values(by='prediction', ascending=False)
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0.007937</td>
+      <td>0.000000</td>
       <td>0</td>
-      <td>8039-aclpl</td>
+      <td>8265-hksow</td>
     </tr>
     <tr>
-      <th>5578</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>42</td>
-      <td>1</td>
-      <td>0</td>
-      <td>20.00</td>
-      <td>833.55</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>8215-ngspe</td>
-    </tr>
-    <tr>
-      <th>1407</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>8</td>
-      <td>0</td>
-      <td>1</td>
-      <td>44.55</td>
-      <td>343.45</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>0895-uadgo</td>
-    </tr>
-    <tr>
-      <th>5572</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>70</td>
-      <td>1</td>
-      <td>1</td>
-      <td>74.80</td>
-      <td>5315.80</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>4654-ulttn</td>
-    </tr>
-    <tr>
-      <th>3120</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>69</td>
-      <td>1</td>
-      <td>1</td>
-      <td>24.95</td>
-      <td>1718.35</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>3148-aoiqt</td>
-    </tr>
-    <tr>
-      <th>528</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>35</td>
-      <td>1</td>
-      <td>0</td>
-      <td>19.60</td>
-      <td>686.95</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>7601-gndyk</td>
-    </tr>
-    <tr>
-      <th>1406</th>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>66</td>
-      <td>1</td>
-      <td>1</td>
-      <td>25.30</td>
-      <td>1673.80</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>9337-srrni</td>
-    </tr>
-    <tr>
-      <th>5566</th>
+      <th>6092</th>
       <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>72</td>
       <td>1</td>
-      <td>0</td>
-      <td>82.15</td>
-      <td>5784.30</td>
-      <td>0</td>
       <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>2302-ouzxb</td>
-    </tr>
-    <tr>
-      <th>3124</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>68</td>
-      <td>1</td>
-      <td>0</td>
-      <td>82.85</td>
-      <td>5776.45</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>3889-vwbid</td>
-    </tr>
-    <tr>
-      <th>530</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>24</td>
-      <td>1</td>
-      <td>1</td>
-      <td>21.10</td>
-      <td>490.65</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>8067-nioym</td>
-    </tr>
-    <tr>
-      <th>531</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>70</td>
-      <td>1</td>
-      <td>0</td>
-      <td>20.05</td>
-      <td>1360.25</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>1403-gyafu</td>
-    </tr>
-    <tr>
-      <th>3131</th>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>72</td>
-      <td>1</td>
-      <td>0</td>
-      <td>78.45</td>
-      <td>5682.25</td>
+      <td>94.25</td>
+      <td>6849.75</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -2982,116 +2673,20 @@ activate.sort_values(by='prediction', ascending=False)
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0.007937</td>
+      <td>0.000000</td>
       <td>0</td>
-      <td>8336-tavkx</td>
+      <td>4024-csnby</td>
     </tr>
     <tr>
-      <th>1404</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>35</td>
-      <td>1</td>
-      <td>0</td>
-      <td>23.30</td>
-      <td>797.10</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>1970-kkfwl</td>
-    </tr>
-    <tr>
-      <th>5555</th>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>70</td>
-      <td>1</td>
-      <td>0</td>
-      <td>19.80</td>
-      <td>1378.75</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>8750-qwzaj</td>
-    </tr>
-    <tr>
-      <th>5554</th>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>63</td>
-      <td>1</td>
-      <td>1</td>
-      <td>20.60</td>
-      <td>1298.70</td>
-      <td>1</td>
-      <td>0</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>8838-gphzp</td>
-    </tr>
-    <tr>
-      <th>5548</th>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>70</td>
-      <td>1</td>
-      <td>0</td>
-      <td>24.25</td>
-      <td>1724.15</td>
-      <td>0</td>
-      <td>1</td>
-      <td>...</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0.007937</td>
-      <td>0</td>
-      <td>4589-iuajb</td>
-    </tr>
-    <tr>
-      <th>1843</th>
+      <th>5113</th>
       <td>0</td>
       <td>1</td>
       <td>1</td>
       <td>71</td>
       <td>1</td>
       <td>0</td>
-      <td>19.70</td>
-      <td>1415.85</td>
+      <td>113.65</td>
+      <td>8166.80</td>
       <td>1</td>
       <td>0</td>
       <td>...</td>
@@ -3102,13 +2697,325 @@ activate.sort_values(by='prediction', ascending=False)
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>0.007937</td>
+      <td>0.000000</td>
       <td>0</td>
-      <td>3173-wssue</td>
+      <td>9258-cnwac</td>
+    </tr>
+    <tr>
+      <th>841</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>105.00</td>
+      <td>7589.80</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>0392-bziuw</td>
+    </tr>
+    <tr>
+      <th>5922</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>72</td>
+      <td>1</td>
+      <td>0</td>
+      <td>105.25</td>
+      <td>7609.75</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>5965-ggprw</td>
+    </tr>
+    <tr>
+      <th>5742</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>114.50</td>
+      <td>8331.95</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>5135-grqjv</td>
+    </tr>
+    <tr>
+      <th>1170</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>114.00</td>
+      <td>8093.15</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>9127-fhjbz</td>
+    </tr>
+    <tr>
+      <th>1606</th>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>104.10</td>
+      <td>7447.70</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>6374-ntqlp</td>
+    </tr>
+    <tr>
+      <th>1753</th>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>96.60</td>
+      <td>6827.50</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>2057-boykm</td>
+    </tr>
+    <tr>
+      <th>5347</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>116.95</td>
+      <td>8594.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>9788-hngut</td>
+    </tr>
+    <tr>
+      <th>6582</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>71</td>
+      <td>1</td>
+      <td>1</td>
+      <td>106.75</td>
+      <td>7283.25</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>9558-ihezx</td>
+    </tr>
+    <tr>
+      <th>1093</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>71</td>
+      <td>1</td>
+      <td>0</td>
+      <td>100.45</td>
+      <td>7159.70</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>8659-ioopu</td>
+    </tr>
+    <tr>
+      <th>3665</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>71</td>
+      <td>1</td>
+      <td>1</td>
+      <td>99.00</td>
+      <td>6994.60</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>1545-jfuml</td>
+    </tr>
+    <tr>
+      <th>4766</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>71</td>
+      <td>1</td>
+      <td>1</td>
+      <td>113.15</td>
+      <td>7993.30</td>
+      <td>1</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>1043-uxovo</td>
+    </tr>
+    <tr>
+      <th>6225</th>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>106.10</td>
+      <td>7548.60</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>1452-uzosf</td>
+    </tr>
+    <tr>
+      <th>1875</th>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>72</td>
+      <td>1</td>
+      <td>1</td>
+      <td>114.10</td>
+      <td>8086.40</td>
+      <td>0</td>
+      <td>1</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.000000</td>
+      <td>0</td>
+      <td>9637-cdtkz</td>
     </tr>
   </tbody>
 </table>
-<p>5174 rows × 44 columns</p>
+<p>1869 rows × 44 columns</p>
 </div>
 
 
