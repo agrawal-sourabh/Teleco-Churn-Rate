@@ -18,7 +18,7 @@ df.head()
 
 
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -294,7 +294,7 @@ df.head()
 
 
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -480,7 +480,7 @@ df.head()
 
 
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -776,7 +776,7 @@ show_correlations(df2,show_chart=True)
 
 
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -943,7 +943,7 @@ df2.head()
 
 
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -1116,7 +1116,7 @@ ml_dummies.head()
 
 
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -1508,7 +1508,7 @@ activate.sort_values(by='prediction', ascending=False)
 
 
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
