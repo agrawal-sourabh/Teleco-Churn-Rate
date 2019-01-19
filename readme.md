@@ -1,4 +1,6 @@
-
+Benchmarks achieved during this project:
+• Built a model in Python to predict customer churn rate using decision tree algorithm with a recall of 76%.
+• Engineered features that reduced false positive rate by 40+% by using one hot encoding
 
 ```python
 import numpy as np 
